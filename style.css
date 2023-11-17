@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=Mooli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  font-family: "Mooli", sans-serif;
+}
+
+#buscadorID {
+  padding: 10px;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+#resultados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+  max-width: 1350px;
+}
+
+#resultados div {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resultsSearch {
+  color: #4285f4;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.descriptionResult {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+@media (max-width: 459px) {
+    .continerInputBtn{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
